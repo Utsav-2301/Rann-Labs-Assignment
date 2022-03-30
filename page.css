@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+}
+.login{
+    display: flex;
+}
+.image img{
+    height: 181px;
+    width: 181px;
+}
+.image{
+    /* margin: 150px 0px 0px 200px; */
+    flex-basis: 40%;
+    background-color: #FF66001F;
+    height: 100vh;
+}
+.position{
+    margin: 150px 0px 0px 200px;
+}
+.text{
+    margin:0px 0px 0px 200px;
+}
+.text2{
+    margin-left: 150px;
+}
+span{
+    margin-left: 30px;
+}
+.account{
+    flex-basis: 60%;
+}
+input{
+    width: 400px;
+    height: 40px;
+}
+.btn1{
+    width: 400px;
+    height: 40px;
+    background-color: orange;
+    cursor: pointer;
+}
+.btn2{
+    width: 400px;
+    height: 40px;
+    color: orange;
+    cursor: pointer;
+    background-color: white;
+}
+.check{
+    margin:"0px 0px 0px 136px";
+}
+nav{
+    background-color: black;
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding: 15px 0 10px;
+}
+
+nav ul{
+
+    text-align: right;
+    flex: 1;
+    padding-right: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    /* color: black; */
+    font-size: 17px;
+}
